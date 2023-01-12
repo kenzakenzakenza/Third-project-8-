@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;500&display=swap');
+ 
+    body {
+        font-family: 'Cairo', sans-serif;
+        height: 3050px;
+
+    }
+
+.header{
+    background-color:rgb(236, 177, 66);
+    color:rgb(36, 84, 99);
+    height: 50px;
+    line-height: 50px;
+}
+.header a{
+    float: right;
+    margin-top: 5px;
+}
+/* kkkkkk */
+.carousel-item{
+ 
+    jheight: 700px;
+   
+
+}
+.carousel-indicators li{
+    height: 10px;
+    background-color: burlywood;
+}
+.ouverlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 196, 226, 0.315);
+    position: absolute;
+    z-index: 1;
+}
+
+/* 0000000000start feutures000000000 */
+.feutures{
+    background-color: rgb(238, 226, 210);
+    padding-top:5PX;
+    padding-bottom: 10PX;
+    border-top: 3px solid burlywood;
+    border-bottom: 3px solid burlywood;
+
+}
+.feutures i{
+    margin-top: 75px;
+}
+.feutures i{
+        width: 100px;
+        height: 100px;
+        background-color:burlywood;
+        line-height: 100px;
+        color: white;
+        font-size: 40px;
+
+    }
+    .feutures h3{
+        display: inline-block;
+        color: rgb(20, 26, 21);
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+    }
+    .feutures p{
+     color: rgb(122, 118, 118);   
+     line-height: 1.8;
+    }
+
+    .feutures h2{
+        font-size: 60px;
+        margin-top:54px;
+        margin-bottom: 40px;
+        color:rgb(36, 84, 99);
+
+        }
+        .feutures i{
+            color: rgb(185, 52, 52);
+            background-color: black;
+
+        }
+        .feutures img {
+                                   
+            border-radius: 50% 50%;
+            
+
+        }
+        .feutures h3{
+            font-size: 40px;
+           
+        }
+
+
+
+        .General-Director{
+           
+            padding: 40% ;
+            padding-top: 10px;
+            padding-bottom: 10px;
+           margin: auto;
+           
+            
+        }
+        .our-team {
+            background-color: rgb(238, 226, 210);
+            padding-top: 40px;
+            background-image: url(../img);
+            border-bottom: 3px solid red;
+           
+            }
+           
+
+      .our-team a{ 
+            font-size: 30px;
+           padding-left: 8%; 
+            display: inline-block; 
+        }
+        
+        .card{
+            margin-bottom: 22px;
+        }
+       
+      
+        .card:hover{
+           
+            box-shadow: 3px 3px 10px rgb(75, 69, 69) ;
+        }
+       
+              .satistique{
+            margin-top:100px;
+            width:100% ;
+            height:500px ;
+            background-image: url(../images/photo\ fix.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+           
+        } 
+        .satistique .deverlay{
+            padding-top: 150px;
+            background-color: rgba(0, 0, 0, 0.555);
+            width: 100%;
+            height: 100%;
+        }   
+        .satistique .deverlay h3{
+         color: burlywood;
+        }
+        .satistique .deverlay p{
+          color: red;
+            font-size: 80px;
+        }
+        .our_customers{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .our_customers img{
+           margin-top: 100px;
+           line-height: 200px;
+            background-image: url();
+            border-bottom: 3px solid red;
+          border-radius: 50%;
+          
+
+        }
+        .our_customers img:hover{
+            box-shadow: 5px 5px 5px 5px;
+
+        }
+          
+
+/* start recent news */
+.recent_news .btn-danger:hover{
+    background-color: aquamarine;
+    border-color:aquamarine ;
+}
+.recent_news .btn-danger:active{
+    background-color: red;
+}
+
+
+
+/* end recent newz */
+
+
+/* /* start footer * */
+
+   footer {
+   
+    
+    padding-top: 30px;
+      background-repeat: no-repeat;
+     background-color:rgb(236, 177, 66);
+     margin-top: 50px; 
+    } 
+
+
+    footer p {
+        color:rgb(36, 84, 99);
+        
+    }
+
+    footer h2 {
+        color:rgb(36, 84, 99); 
+              
+    }
+  footer a {
+    color:rgb(36, 84, 99); 
+      
+     }
+
+    footer a:hover {
+        
+        color: black;
+       
+    }
+
+    footer ul li {
+      
+    list-style: none;
+ 
+   
+    }  
+
+   /* End footer */
+/* <!-- start page name -- */
+.jumbotron{
+    padding: 20px;
+    display: flex;
+justify-content: space-between;
+
+
+}
+.jumbotron .blog_info{
+    flex:2 ;
+
+}
+
+.jumbotron .blog_image{
+    flex:1;
+
+}
+.blogs {
+    background-color: rgb(238, 226, 210);
+   
+
+}
+
+
+/* <!-- End blogs --> */
+
+/* <!-- start blog --> */
+.blog_details p {
+    line-height: 2 ;
+    padding: 10px;
+   
+}
+/* <!-- End blog --> */
+/* start computer-Maintenance */
+.computer-Maintenance img:hover{
+    transform: scale(1.1);
+  
+}
+.computer-Maintenance{
+    background-color: rgb(238, 226, 210);
+
+    padding: 30px;
+   
+ 
+}
+/* start computer-aintenance */
+.learn-programming{
+    background-color:rgb(246, 226, 201);
+    padding: 10px;
+
+}
+
+/*end learn programming */
